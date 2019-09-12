@@ -1,5 +1,11 @@
 hello.
 my name is ashley.
-i like to design websites.\
+i like to design websites.
 
 This is thursday's changes.
+
+<form action="/your-name/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit">
+</form>
